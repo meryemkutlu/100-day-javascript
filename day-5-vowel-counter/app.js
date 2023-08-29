@@ -16,4 +16,3 @@ function countVowel() {
     }
     result.innerHTML = `${word.value.toUpperCase()} has ${vowelCount} vowels`;
 }
-
