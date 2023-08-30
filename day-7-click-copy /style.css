@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: coral;
+}
+
+/* .container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+} */
+
+.box {
+    height: 100vh;
+}
