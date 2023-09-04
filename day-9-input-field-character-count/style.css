@@ -1,0 +1,29 @@
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.counter-div {
+    width: 40rem;
+    border: 1px solid #eee;
+    padding: 1rem;
+    background-color: rgb(109, 37, 210);
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.counter-div>* {
+    margin-bottom: 2rem;
+}
+
+.count {
+    font-size: 4rem;
+    border: 1px solid white;
+    padding: 0 1rem;
+}
