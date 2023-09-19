@@ -15,7 +15,7 @@ function getQuotes(e) {
 
                 const response = shuffle(JSON.parse(this.responseText));
 
-                let outpt = "";
+                let output = "";
                 // response.forEach(function (quote) {
                 //   outpt += `
                 //     <li>Quotes: ${quote.text}</li>
@@ -27,14 +27,14 @@ function getQuotes(e) {
                     if (i == number.value) {
                         break;
                     }
-                    outpt += `
+                    output += `
              <li>Quotes: ${response[i].text}</li>
             <li>Author: ${response[i].author}</li>
             <hr>
         `;
                 }
 
-                document.querySelector(".quotes").innerHTML = outpt;
+                document.querySelector(".quotes").innerHTML = output;
             }
         };
 
