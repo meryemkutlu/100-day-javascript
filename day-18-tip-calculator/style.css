@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+section {
+    height: 100vh;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calc {
+    width: 40rem;
+    background-color: white;
+}
+
+h2 {
+    font-size: 4rem;
+    color: white;
+    background-color: rgb(70, 119, 162);
+    text-align: center;
+    padding: 1rem;
+}
+
+form,
+form>* {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 1.6rem;
+    border-bottom: 2px solid paleturquoise;
+}
+
+form div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input,
+select {
+    font-size: 1.6rem;
+    padding: 7px;
+    width: 20rem;
+    text-align: right;
+}
+
+.btn {
+    margin: 5px 0;
+    background-color: paleturquoise;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn:hover {
+    background-color: rgb(70, 119, 162);
+}
+
+.error {
+    color: red;
+    display: none;
+}
+
+.result {
+    width: 90%;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.result>* {
+    background-color: rgb(232, 227, 227);
+    margin-bottom: 1rem;
+    padding: 1rem;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.total {
+    color: red;
+}
