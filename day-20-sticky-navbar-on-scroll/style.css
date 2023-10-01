@@ -57,7 +57,7 @@ header {
 
 header.sticky {
     background-color: var(--grey);
-    /* border-bottom: 1px solid #777; */
+    border-bottom: 1px solid #777;
     padding: 1rem 0;
 }
 
