@@ -93,3 +93,9 @@ button.tab-link {
         transform: translateX(0);
     }
 }
+
+@media screen and (max-width: 600px) {
+    .tab-links {
+        width: 50%;
+    }
+}
